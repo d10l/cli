@@ -20,7 +20,7 @@ $ npm install -g dencli
 $ den COMMAND
 running command...
 $ den (-v|--version|version)
-dencli/0.0.0 darwin-x64 node-v11.15.0
+dencli/0.1.0 darwin-x64 node-v11.15.0
 $ den --help [COMMAND]
 USAGE
   $ den COMMAND
@@ -53,7 +53,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/denseidel/dencli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/denseidel/dencli/blob/v0.1.0/src/commands/hello.ts)_
 
 ## `den help [COMMAND]`
 
@@ -79,9 +79,12 @@ Adding repo boilerplate include README.md and repo structure.
 ```
 USAGE
   $ den repo:addboilerplate
+
+EXAMPLE
+  $ den repo:addboilerplate
 ```
 
-_See code: [src/commands/repo/addboilerplate.ts](https://github.com/denseidel/dencli/blob/v0.0.0/src/commands/repo/addboilerplate.ts)_
+_See code: [src/commands/repo/addboilerplate.ts](https://github.com/denseidel/dencli/blob/v0.1.0/src/commands/repo/addboilerplate.ts)_
 
 ## `den repo:addguidelineagent`
 
@@ -92,7 +95,7 @@ USAGE
   $ den repo:addguidelineagent
 ```
 
-_See code: [src/commands/repo/addguidelineagent.ts](https://github.com/denseidel/dencli/blob/v0.0.0/src/commands/repo/addguidelineagent.ts)_
+_See code: [src/commands/repo/addguidelineagent.ts](https://github.com/denseidel/dencli/blob/v0.1.0/src/commands/repo/addguidelineagent.ts)_
 
 ## `den repo:addservice`
 
@@ -103,7 +106,7 @@ USAGE
   $ den repo:addservice
 ```
 
-_See code: [src/commands/repo/addservice.ts](https://github.com/denseidel/dencli/blob/v0.0.0/src/commands/repo/addservice.ts)_
+_See code: [src/commands/repo/addservice.ts](https://github.com/denseidel/dencli/blob/v0.1.0/src/commands/repo/addservice.ts)_
 <!-- commandsstop -->
 
 ## Common Errors

@@ -1,7 +1,7 @@
 {
   "name": "dencli",
   "description": "CLI to build platform in regulated industries",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Dennis Seidel @denseidel",
   "bin": {
     "den": "./bin/run"
