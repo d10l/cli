@@ -1,6 +1,6 @@
 import Command from '@oclif/command'
 
-import { createFolderIfItNotExists, getTemplateFolder, runTemplate } from '../../lib'
+import { getTemplateFolder, runTemplate } from '../../lib'
 
 export class AddService extends Command {
   static description = 'add a service based on aws lambda'
